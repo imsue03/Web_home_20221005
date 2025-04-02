@@ -5,4 +5,5 @@ This project is a starting point for a Web application.
 - [프로젝트 메인 주소](https://github.com/imsue03/WEB_MAIN)
 ## 2주차 수업 메인화면 개발 완료! (문제 포함)
 ## 3주차 수업 부트스트랩 적용 완료! (문제 제외)
-## 4주차 수업 완료!(문제 제외)
+## 4주차 수업 완료! (문제 제외)
+## 5주차 수업 완료! 자바스크립트 적용 완료!(문제 제외)
