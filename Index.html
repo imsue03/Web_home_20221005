@@ -12,49 +12,56 @@
         <base href="http://127.0.0.1:5500">
         <style>
             table {
-                font-size: 20pt;
-                color: white;
+                font-size: 15pt;
+                color: #ec4343;
             }
         </style>
-    </head>
-        <body style="background-color:rgb(255, 255, 255);">
+        <script type="text/javascript" src="js/Basic_js_test.js"></script>
+        <script type="text/javascript" defer src="js/js_popup.js"></script>
+        <script type="text/javascript" defer src="js/js_search.js"></script>
+    </head> 
+        <body style="background-color:rgb(255, 255, 255);" onload="pop_up();">
             <div style="display: flex; justify-content: center;">
                 <img src="image/LOGO.svg" width="200" height="60">
                 <!-- <h3 style="font-size: 24px; font-weight: bold; font-style: italic; color: white;"> <a href="https://store.steampowered.com/app/1943950/Escape_the_Backrooms/" target="_blank">게임정보</a> 기본정보 챔피언 패치노트 새소식 등 (메뉴 정보)</h3> -->
 
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="#">Navbar</a>
+                      <a class="navbar-brand" href="#">메뉴</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">홈페이지</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                            <a class="nav-link" href="#">게임소개</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#">다운로드</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">챔피언</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">스토리</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">외부다운</a>
                           </li>
                         </ul>
+                        <!--
                         <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+                          <input class="form-control me-2" id="search_input" name="q" placeholder="키워드 입력" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" id="search_btn" type="submit">검색</button>
+                        </form>-->
+                        
+                        <form class="d-flex" role="search" onsubmit="return googleSearch();">
+                          <input class="form-control me-2" id="search_input" name="q" placeholder="키워드 입력" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" id="search_btn" type="submit">검색</button>
+                        </form> 
                       </div>
                     </div>
                   </nav>
