@@ -1,6 +1,7 @@
- function pop_up() {
-     window.open("../popup/popup.html", "팝업테스트", "width=400, height=300, top=10, left=10");
-     }
+ 
+//  function pop_up() {
+//      window.open("../popup/popup.html", "팝업테스트", "width=400, height=300, top=10, left=10");
+//      }
  function show_clock() {
      let currentDate = new Date(); // 현재 시스템 날짜 객체 생성
      let divClock = document.getElementById('divClock');
@@ -55,4 +56,36 @@ function out(obj) {
         const search_message = () => {
         const c = '검색을 수행합니다';
         alert(c);
+    }
+// const over = (obj) => {
+//     obj.src = "image/LOGO.png";
+//     };
+//     const search_message = () => {
+//     const c = '검색을 수행합니다';
+//     alert(c);
+//     };
+function pop_up() {
+    var cookieCheck = getCookie("popupYN");
+    if (cookieCheck != "N"){
+        window.open("../popup/popup.html", "팝업테스트", "width=400, height=300, top=10, left=10");
+    }
+}
+function setCookie(name, value, expiredays) {
+    var date = new Date();
+    date.setDate(date.getDate() + expiredays);
+    document.cookie = escape(name) + "=" + escape(value) + ";expires=" + date.toUTCString() + "; path=/";
+}
+function getCookie(name) {
+    var cookie = document.cookie;
+    console.log("쿠키를 요청합니다.");
+    if (cookie != "") {
+        var cookie_array = cookie.split("; ");
+        for ( var index in cookie_array) {
+            var cookie_name = cookie_array[index].split("=");
+            if (cookie_name[0] == "popupYN") {
+                return cookie_name[1];
+            }
         }
+    }
+    return ;
+}
