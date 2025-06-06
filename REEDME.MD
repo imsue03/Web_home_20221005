@@ -15,7 +15,8 @@ This project is a starting point for a Web application.
 ## 12주차 수업 완료!
 ## 13주차 수업 완료!
 
-## WEB_MAIN_lsh2 는 여태까지 해왔던 폴더이고, WEB_MAIN_FINISH 는 위 폴더를 기반으로 연습문제 실습, 업데이트 추가 등 최종 폴더입니다
+## 교수님 참고 부탁드립니다! 
+WEB_MAIN_lsh2 는 여태까지 해왔던 폴더이고, WEB_MAIN_FINISH 는 위 폴더를 기반으로 연습문제 실습, 업데이트 추가 등 최종 폴더입니다
 
 ## 연습문제 및 자습 용도 프로젝트 업데이트
 
