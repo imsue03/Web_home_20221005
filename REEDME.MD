@@ -2,7 +2,8 @@
 새로운 시작! 웹 서비스 개발의 세계로 떠나보아요~
 ## Getting Started
 This project is a starting point for a Web application.
-- [프로젝트 메인 주소](https://github.com/imsue03/WEB_MAIN)
+- [프로젝트 메인 주소](https://imsue03.github.io/Web_home_20221005/) https://imsue03.github.io/Web_home_20221005/
+도메인 연결은 성공했으나 도메인만으로는 기능들이 실행이안되는 오류를 끝내 고치지못했습니다.. 하지만 파일을 받으면 정상적으로 실행이되는것을 확인했습니다.
 ## 2주차 수업 메인화면 개발 완료! (문제 포함)
 ## 3주차 수업 부트스트랩 적용 완료! (문제 포함)
 ## 4주차 수업 완료! (문제 포함)
@@ -16,7 +17,7 @@ This project is a starting point for a Web application.
 ## 13주차 수업 완료!
 
 ## 교수님 참고 부탁드립니다! 
-WEB_MAIN_lsh2 는 여태까지 해왔던 폴더이고, WEB_MAIN_lsh_Finish 는 위 폴더를 기반으로 연습문제 실습, 업데이트 추가 등 최종 폴더입니다
+WEB_MAIN_lsh2 는 여태까지 해왔던 폴더이고(였지만 도메인 오류를 수정하면서 삭제함), WEB_MAIN_lsh_Finish 는 위 폴더를 기반으로 연습문제 실습, 업데이트 추가 등 최종 폴더입니다
 
 ## 연습문제 및 자습 용도 프로젝트 업데이트
 
