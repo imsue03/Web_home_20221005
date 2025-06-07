@@ -3,7 +3,10 @@
 ## Getting Started
 This project is a starting point for a Web application.
 - [프로젝트 메인 주소](https://imsue03.github.io/Web_home_20221005/) https://imsue03.github.io/Web_home_20221005/
+
 도메인 연결은 성공했으나 도메인만으로는 기능들이 실행이안되는 오류를 끝내 고치지못했습니다.. 하지만 파일을 받으면 정상적으로 실행이되는것을 확인했습니다.
+
+Web_main_lsh_Finish 파일이 최종 파일입니다!
 ## 2주차 수업 메인화면 개발 완료! (문제 포함)
 ## 3주차 수업 부트스트랩 적용 완료! (문제 포함)
 ## 4주차 수업 완료! (문제 포함)
